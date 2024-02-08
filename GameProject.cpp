@@ -1,11 +1,14 @@
 ﻿// GameProject.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include <SFML/Graphics.hpp>
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello World!\n";
+    sf::RenderWindow window;
+    window.create(sf::VideoMode(1000, 1000), "Game");
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
